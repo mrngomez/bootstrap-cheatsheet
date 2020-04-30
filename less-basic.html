@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Cheatsheet</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+      <!-- container: Auto margins -->
+    <div class="container">
+      
+      
+      <!-- cards replace panels, wells and thumbnais-->
+
+      <div class="card" style="width: 18rem;">
+        <div class="card-header">
+          Featured
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Cras justo odio</li>
+          <li class="list-group-item">Dapibus ac facilisis in</li>
+          <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+      </div>
+
+      <br>
+
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Cras justo odio</li>
+          <li class="list-group-item">Dapibus ac facilisis in</li>
+          <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Card link</a>
+          <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+
+      <br>
+
+      <a href="https://getbootstrap.com/docs/4.0/components/card/" class="btn btn-info"> more cards </a>
+
+      <hr>
+
+      <!-- alerts -->
+      <div class="alert alert-success">alert-success</div>
+      <div class="alert alert-warning">alert-warning</div>
+      <div class="alert alert-info">alert-info</div>
+      <div class="alert alert-danger">alert-danger</div>
+
+      <!-- dismissable -->
+      <div class="aler alert-warning alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert">
+          <span>&times;</span>
+          you can close this
+        </button>
+      </div>
+
+      <!--progress bars-->
+      <div class="progress">
+        <div class="progress-bar progress-bar-striped" style="width: 50%;">
+          progress
+        </div>
+      </div>
+
+      <!-- badging (labels) -->
+
+      <h1>Example heading <span class="badge badge-secondary">New</span></h1>
+      <h2>Example heading <span class="badge badge-secondary">New</span></h2>
+      <h3>Example heading <span class="badge badge-secondary">New</span></h3>
+      <h4>Example heading <span class="badge badge-secondary">New</span></h4>
+      <h5>Example heading <span class="badge badge-secondary">New</span></h5>
+      <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+
+      <span class="badge badge-primary">Primary</span>
+      <span class="badge badge-secondary">Secondary</span>
+      <span class="badge badge-success">Success</span>
+      <span class="badge badge-danger">Danger</span>
+      <span class="badge badge-warning">Warning</span>
+      <span class="badge badge-info">Info</span>
+      <span class="badge badge-light">Light</span>
+      <span class="badge badge-dark">Dark</span>
+
+
+      <!-- Images: This has changed -->
+      <div class="container">
+        <img class="thumbnail"   src="https://via.placeholder.com/640x360">
+        <img class="img-rounded" src="https://via.placeholder.com/640x360"><br><br>
+        <img class="img-circle"  src="https://via.placeholder.com/640x360">
+      </div>
+
+    </div>
+
+    <div style="height: 400px;"></div>
+
+    <!-- jQuery CDN (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

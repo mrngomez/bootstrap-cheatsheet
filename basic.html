@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Cheatsheet</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+      <!-- container: Auto margins -->
+    <div class="container">
+        <!--page-header: for titles DEPRECATED-->
+        <h1 class="page-header">Hello, world!<small> other text</small></h1>
+        <!--lead: A more important paragraph-->
+        <p class="lead">
+            <!-- bold the text a little -->
+            <mark>Lorem</mark>
+            <!--crossed out text-->
+            <del>ipsum</del>
+            <!--highlight-->
+            <u>dolor</u>
+             sit, amet consectetur adipisicing elit. Similique nisi reprehenderit 
+        </p>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique nisi reprehenderit 
+            officia unde minus voluptatum eum dolorem omnis accusantium, iusto, obcaecati quidem 
+            eligendi exercitationem aliquid, ipsam repellat? Aut, fuga repellendus.
+        </p>
+
+        <hr> <!-- horizontal line -->
+
+        <!-- alignement: they only work with paragraphs?-->
+
+        <p class="text-left">left</p>
+        <p class="text-center">center</p>
+        <p class="text-right">right</p>
+        <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis esse, aspernatur temporibus, a unde voluptatum aperiam voluptatem commodi mollitia rerum consequuntur modi neque! Qui, voluptatibus dolorum harum iste facilis quae.</p>
+        <p class="text-nowrap">text-nowrap text-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowraptext-nowrap</p>
+        <p class="text-center text-lowercase">lowercase</p>
+        <p class="text-center text-uppercase">uppercase</p>
+        <p class="text-justify text-capitalize">capitalize everything: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum amet incidunt necessitatibus ex vel voluptate ut aliquid a! Iste molestiae aut eum perferendis fuga maxime aliquam recusandae dolore id placeat!</p>
+        
+        <!-- quick floats-->
+        <div class="float-right"> div floated to right </div>
+        <div class="float-left"> div floated to left </div>
+        
+        <!--clear float-->
+
+        <div class="clearfix"></div>
+        <p class="text-center">clearfix (jumpline)</small>
+        <hr>
+
+        <!-- blockquote: These have changed in Bootstrap 4 check on them later -->
+
+        <blockquote class="blockquote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium soluta, officia in sed quia, sapiente quibusdam, aliquam assumenda quisquam molestiae eius culpa enim provident expedita quas ipsam! Harum, laboriosam molestias?</p>
+            <footer>cite by <cite title="John Doe">John doe</cite></footer>
+        </blockquote>
+        <hr>
+
+        <blockquote class="blockquote-reverse">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium soluta, officia in sed quia, sapiente quibusdam, aliquam assumenda quisquam molestiae eius culpa enim provident expedita quas ipsam! Harum, laboriosam molestias?</p>
+            <footer>cite by <cite title="John Doe">John doe</cite></footer>
+        </blockquote>
+        <hr>
+
+        <!-- standard lists -->
+
+        <ul>
+            <li>list</li>
+            <li>by</li>
+            <li>default</li>
+        </ul>
+        <hr>
+
+        <ul class=list-unstyled>
+            <li>bootstrap</li>
+            <li>list-unstyled</li>
+            <li>class</li>
+        </ul>
+        <hr>
+
+        <ul class="list-inline">
+            <li class="list-inline-item">list</li>
+            <li class="list-inline-item">inline</li>
+            <li class="list-inline-item">item</li>
+        </ul>
+        <hr>
+
+        <!-- code blocks -->
+        <code>&lt;code&gt;this is a code block&lt;/code&gt;</code>
+        <kbd>enter</kbd> <kbd>esc</kbd> <kbd>ctrl</kbd> <kbd>alt</kbd> <kbd>alt gr</kbd>
+        <br>
+        <hr>
+
+        <!-- contextual classes -->
+        <!-- contextual colors -->
+
+        <p class="text-primary">text-primary</p>
+        <p class="text-success">text-success</p>
+        <p class="text-info">text-info</p>
+        <p class="text-warning">text-warning</p>
+        <p class="text-danger">text-danger</p>
+        <hr>
+        
+        <p class="bg-primary">text-primary</p>
+        <p class="bg-success">text-success</p>
+        <p class="bg-info">text-info</p>
+        <p class="bg-warning">text-warning</p>
+        <p class="bg-danger">text-danger</p>
+        <hr>
+
+        <!-- buttons MAYBE THIS HAS CHANGED AS WELL-->
+        
+        <button class="btn btn-default"> button</button>
+        <a href="#" class="btn btn-default"> link </a>
+        <input type="submit" class="btn btn-default" value="submit">
+        <br>
+        <hr>
+
+        <!-- contextual buttons -->
+
+        <button class="btn btn-default">default</button>
+        <button class="btn btn-primary">primary</button>
+        <button class="btn btn-success">success</button>
+        <button class="btn btn-info">info</button>
+        <button class="btn btn-warning">warning</button>
+        <button class="btn btn-danger">danger</button>
+        <button class="btn btn-link">link</button>
+        <button class="btn btn-default" disabled="disabled">Disabled</button>
+        <hr>
+
+        <!-- button sizes -->
+        <button class="btn btn-lg">large button</button>
+        <button class="btn btn-default">def size</button>
+        <button class="btn btn-xs">xs size</button>
+        <hr>
+
+        <!-- forms, simple form -->
+
+        <div class="container">
+            <form class="form-group">
+                <div class="form-group">
+                    <label>name</label>
+                    <input class="form-control" type="text" placeholder="add name">
+                </div>
+                <div class="form-group">
+                    <label>email</label>
+                    <input class="form-control" type="email" placeholder="add email">
+                </div>
+                <div class="form-group">
+                    <label>message</label>
+                    <textarea class="form-control" placeholder="add msg"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>gender</label>
+                    <select class="form-control">
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                        <option value="other">other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>upload file</label>
+                    <input type="file">
+                    <p class="help-block">only jpg alowed</p>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> check me out
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-default">submit</button>
+
+            </form>
+        </div> <!--container-->
+
+        <hr>
+
+        <!-- form inline -->
+
+        <div class="container">
+            <form class="form-inline">
+                <div class="form-group">
+                    <label>name</label>
+                    <input class="form-control" type="text" placeholder="add name">
+                </div>
+                <div class="form-group">
+                    <label>email</label>
+                    <input class="form-control" type="email" placeholder="add email">
+                </div>
+                <div class="form-group">
+                    <label>message</label>
+                    <textarea class="form-control" placeholder="add msg"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>gender</label>
+                    <select class="form-control">
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                        <option value="other">other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>upload file</label>
+                    <input type="file">
+                    <p class="help-block">only jpg alowed</p>
+                </div>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> check me out
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-default">submit</button>
+
+            </form>
+        </div> <!--container-->
+
+        <hr>
+
+        <!-- tables -->
+
+        <p class="text-center">Normally formated table</p>
+        <table>
+            <tr>
+              <th>Company</th>
+              <th>Contact</th>
+              <th>Country</th>
+            </tr>
+            <tr>
+              <td>Alfreds Futterkiste</td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
+            </tr>
+            <tr>
+              <td>Centro comercial Moctezuma</td>
+              <td>Francisco Chang</td>
+              <td>Mexico</td>
+            </tr>
+            <tr>
+              <td>Ernst Handel</td>
+              <td>Roland Mendel</td>
+              <td>Austria</td>
+            </tr>
+            <tr>
+              <td>Island Trading</td>
+              <td>Helen Bennett</td>
+              <td>UK</td>
+            </tr>
+            <tr>
+              <td>Laughing Bacchus Winecellars</td>
+              <td>Yoshi Tannamuri</td>
+              <td>Canada</td>
+            </tr>
+            <tr>
+              <td>Magazzini Alimentari Riuniti</td>
+              <td>Giovanni Rovelli</td>
+              <td>Italy</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <p class="text-center">bootstrap formated table</p>
+        <table class="table">
+            <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+            </tr>
+            <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+            </tr>
+            <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+            </tr>
+            <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+            </tr>
+            <tr>
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+            <td>UK</td>
+            </tr>
+            <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Yoshi Tannamuri</td>
+            <td>Canada</td>
+            </tr>
+            <tr>
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <p class="text-center">table-stripped formated table</p>
+        <table class="table table-striped">
+            <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+            </tr>
+            <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+            </tr>
+            <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+            </tr>
+            <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+            </tr>
+            <tr>
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+            <td>UK</td>
+            </tr>
+            <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Yoshi Tannamuri</td>
+            <td>Canada</td>
+            </tr>
+            <tr>
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <p class="text-center">table-striped table-bordered formated table</p>
+        <table class="table table-striped table-bordered">
+            <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+            </tr>
+            <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+            </tr>
+            <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+            </tr>
+            <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+            </tr>
+            <tr>
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+            <td>UK</td>
+            </tr>
+            <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Yoshi Tannamuri</td>
+            <td>Canada</td>
+            </tr>
+            <tr>
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <p class="text-center">table-striped table-bordered table-hover formated</p>
+        <table class="table table-striped table-bordered table-hover">
+            <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+            </tr>
+            <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+            </tr>
+            <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+            </tr>
+            <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+            </tr>
+            <tr>
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+            <td>UK</td>
+            </tr>
+            <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Yoshi Tannamuri</td>
+            <td>Canada</td>
+            </tr>
+            <tr>
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <p class="text-center">table-striped table-bordered table-hover table-condensed formated</p>
+        <table class="table table-striped table-bordered table-hover table-condensed">
+            <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+            </tr>
+            <trdd>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+            </tr>
+            <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+            </tr>
+            <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+            </tr>
+            <tr>
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+            <td>UK</td>
+            </tr>
+            <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Yoshi Tannamuri</td>
+            <td>Canada</td>
+            </tr>
+            <tr>
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+            </tr>
+        </table>
+
+        <!-- more lists -->
+
+        <ul class="list-group">
+            <li class="list-group-item">list</li>
+            <li class="list-group-item">group</li>
+            <li class="list-group-item">item</li>
+        </ul>
+
+        <br>
+
+        <div class="list-group">
+            <a href="#" class="list-group-item active">item 1</a>
+            <a href="#" class="list-group-item">item 2</a>
+            <a href="#" class="list-group-item">item 3</a>
+        </div>
+
+    </div>
+    
+    <div style="height: 400px;"></div>
+
+    <!-- jQuery CDN (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
